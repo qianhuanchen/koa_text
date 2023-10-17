@@ -1,0 +1,17 @@
+{
+  "name": "koa_text",
+  "version": "1.0.0",
+  "description": "Koa framework learning\r # 初始化koa\r 1. 执行生成package.json\r ```\r npm init -y\r ```\r 2.安装koa\r ```\r npm i koa\r ```\r 3.安装body扩展和router\r ```angular2html\r npm i koa-body koa-router\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0"
+  }
+}
