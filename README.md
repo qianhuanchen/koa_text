@@ -17,16 +17,23 @@ npm i koa-body koa-router
 ```
 npm i @koa/cors
 ```
+### 安装 koa-bodyparser 它可以自动解析 JSON、Raw、文本、URL-encoded 等格式的请求体
+```
+npm i koa-bodyparser
+```
 ### 使用这些功能
 ```javascript
 //引用
 const Koa = require('koa')
 const Router = require('koa-router')
 const {koaBody} = require('koa-body')
+const bodyParser = require('koa-bodyparser')
 //实例化koa
 const app = new Koa();
 const router = new Router();
 app.use(koaBody())
+app.use(bodyParser());
+
 
 
 app.use(router.routes())
